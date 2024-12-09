@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pollo Asado - Recetas y Reseñas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/estilo3.css">
+</head>
+<body>
+
+  <img src="assets/img/img3.png" alt="Pollo volando" class="flying-chicken">
+
+  <header>
+    <nav class="navbar">
+      <div class="logo">🍗 Pollos kokis</div>
+      <ul class="nav-links">
+        <li><a href="index3.html">Inicio</a></li>
+        <li><a href="index4.html">Recetas</a></li>
+        <li><a href="#imagenes">Imágenes</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#resenas">Reseñas</a></li>
+        <li class="right"><a href="index.html">Inicio de Sesión</a></li>
+      </ul>
+      <span class="menu-toggle" onclick="toggleMenu()">☰</span>
+    </nav>
+  </header>
+
+  <section id="recetas">
+    <h2>Recetas de Pollo kokis</h2>
+    <div class="tarjetas-recetas">
+      <div class="tarjeta">
+        <img src="assets/img/img5.jpg" alt="Receta 1" class="imagen-receta">
+        <h3>Pollo Asado al Horno</h3>
+        <p>Disfruta de un delicioso pollo asado al horno, con una mezcla de hierbas frescas y un toque de limón.</p>
+        <a href="receta1.html" class="button">Ver Receta</a>
+      </div>
+      <div class="tarjeta">
+        <img src="assets/img/img6.jpg" alt="Receta 2" class="imagen-receta">
+        <h3>Pollo Asado a la Parrilla</h3>
+        <p>Un pollo asado a la parrilla con un adobo especiado que te hará agua la boca.</p>
+        <a href="receta2.html" class="button">Ver Receta</a>
+      </div>
+      <div class="tarjeta">
+        <img src="assets/img/img7.jpg" alt="Receta 3" class="imagen-receta">
+        <h3>Pollo Asado con Papas</h3>
+        <p>El clásico pollo asado con papas al romero, una receta fácil y deliciosa para cualquier ocasión.</p>
+        <a href="receta3.html" class="button">Ver Receta</a>
+      </div>
+      <div class="tarjeta">
+        <img src="assets/img/img8.jpg" alt="Receta 4" class="imagen-receta">
+        <h3>Pollo al Estilo BBQ</h3>
+        <p>Pollo asado con salsa BBQ casera, ideal para compartir con amigos y familia.</p>
+        <a href="receta4.html" class="button">Ver Receta</a>
+      </div>
+      <div class="tarjeta">
+        <img src="assets/img/img4.jpg" alt="Receta 5" class="imagen-receta">
+        <h3>Pollo Asado con Salsa de Mostaza</h3>
+        <p>Un pollo asado acompañado de una salsa suave y cremosa de mostaza. ¡Irresistible!</p>
+        <a href="receta5.html" class="button">Ver Receta</a>
+      </div>
+      <div class="tarjeta">
+        <img src="assets/img/img5.jpg" alt="Receta 6" class="imagen-receta">
+        <h3>Pollo Asado con Verduras</h3>
+        <p>Receta de pollo asado con una mezcla de verduras asadas al gusto, perfecta para un almuerzo completo.</p>
+        <a href="receta6.html" class="button">Ver Receta</a>
+      </div>
+    </div>
+  </section>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis similique doloribus enim deleniti, atque, tempore ut voluptatem laborum, minima suscipit a culpa facere placeat fuga? Nobis hic inventore recusandae soluta!</p>
+
+  <footer>
+    <div class="social-links">
+      <a href="https://wa.me/" target="_blank"><img src="assets/img/fondo1.png" alt="WhatsApp"></a>
+      <a href="https://facebook.com/" target="_blank"><img src="assets/img/fondo2.jpg" alt="Facebook"></a>
+      <a href="https://twitter.com/" target="_blank"><img src="assets/img/fondo3.png" alt="Twitter"></a>
+    </div>
+    <p>&copy; 2024 POLLOS KOKIS. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>

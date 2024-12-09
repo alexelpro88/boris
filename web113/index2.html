@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="assets/css/estilo2.css">
+</head>
+<body>
+    <div class="register-container">
+        <h1>POLLOS KOKIS</h1>
+        <p>Regístrate para formar parte de esta familia</p>
+        <form id="registrationForm">
+            <input type="email" id="email" placeholder="Correo electrónico" required>
+            <input type="text" id="nombre" placeholder="Nombre" required>
+            <input type="text" id="apellido" placeholder="Apellido" required>
+            <input type="date" id="fechaNacimiento" required>
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <input type="password" id="confirmPassword" placeholder="Confirmar contraseña" required>
+            <button type="button" id="generateCredentials">Crear Cuenta</button>
+            <p class="info-text">
+                Al registrarte, aceptas nuestras <a href="https://help.instagram.com/581066165581870/?locale=es_ES">Condiciones</a>, nuestra <a href="https://www.facebook.com/privacy/policy">Política de privacidad</a> y nuestra <a href="#">Política de cookies</a>.
+            </p>
+            <button type="submit">Registrarte</button>
+        </form>
+        <p>¿Tienes una cuenta? <a href="index.html">Entrar</a></p>
+    </div>
+
+    <script src="assets/js/script2.js"></script>
+</body>
+</html>
